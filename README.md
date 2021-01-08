@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 <p align="center">
-  <img src="images/yz_brand_icon.png" />
+  <img src="images/yz_brand_icon.png" width=50% />
 </p>
 
 My name is Yousuf. Just your friendly neighbourhood git geek. Dont be afraid to reach out. All about chill vibes and nerd talk.
