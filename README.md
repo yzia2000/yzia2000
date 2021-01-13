@@ -13,3 +13,4 @@ My name is Yousuf. Just your friendly neighbourhood git geek. Dont be afraid to 
 - 🤔 I’m looking for help with [ZiMS-SFU](https://github.com/yzia2000/zims), [ZiMS-MESH](https://github.com/yzia2000/zims-mesh) and [WhatsApp Helper](https://github.com/yzia2000/whatsapphelper).
 - 💬 Blog discussion forum: [Blog Discussions](https://github.com/yzia2000/blog/discussions)
 - 📫 How to reach me: [Linkedin](https://www.linkedin.com/in/mohammad-yousuf-minhaj-zia-ab555396/)
+- [Resume](resume/resume.pdf) and [Transcript]{Transcript.pdf}
