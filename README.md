@@ -4,7 +4,7 @@
   <img src="images/yz_brand_icon.png" style="width: 50%;" />
 </p>
 
-My name is Yousuf. Just your friendly neighbourhood git geek. Dont be afraid to reach out. All about chill vibes and nerd talk.
+My name is Yousuf. Just your friendly neighbourhood git geek.
 
 - 🔭 I’m currently working on [ZiMS-SFU](https://github.com/yzia2000/zims), [ZiMS-MESH](https://github.com/yzia2000/zims-mesh), [blog](https://yzia2000.github.io/blog), [linux configs](https://github.com/yzia2000/dotfiles).
 - 🐧 Btw I use arch: [Linux dotfiles](https://github.com/yzia2000/dotfiles)
