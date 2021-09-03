@@ -1,4 +1,4 @@
-\documentclass[11pts]{article}
+\documentclass[12pts]{article}
 \usepackage{hyperref}
 \usepackage{fontawesome}
 \usepackage[compact]{titlesec}
@@ -11,10 +11,10 @@
 \titlespacing{\subsubsection}{0pt}{*0}{*0}
 
 \topmargin=0.0in %length of margin at the top of the page (1 inch added by default)
-\oddsidemargin=0.0in %length of margin on sides for odd pages
-\evensidemargin=0in %length of margin on sides for even pages
-\textwidth=6.5in %How wide you want your text to be
-\marginparwidth=0.5in
+\oddsidemargin=-0.2in %length of margin on sides for odd pages
+\evensidemargin=-0.2in %length of margin on sides for even pages
+\textwidth=7.0in %How wide you want your text to be
+\marginparwidth=0.0in
 \headheight=0pt %1in margins at top and bottom (1 inch is added to this value by default)
 \headsep=0pt %Increase to increase white space in between headers and the top of the page
 \textheight=9.0in %How tall the text body is allowed to be on each page
@@ -49,11 +49,30 @@
 \subsection*{National University of Singapore (NUS) \hfill Aug 18 - Present}
 \begin{itemize}
     \item Bachelor of Engineering (Computer Engineering), Hons with minor in Data Engineering (restricted minor)
-    \item Current CAP: 4.50 (Expected First Class Honours) Dean's List 2019/2020 FoE and SoC
+    \item Current CAP: 4.52 (Expected First Class Honours) Dean's List 2019/2020 FoE and SoC
     \item Expected Date of Graduation: May 2022
 \end{itemize}
 
 \section*{WORK EXPERIENCE}
+\subsection*{Intern Software Engineer, Glints \hfill May 21 - Present}
+\begin{itemize}
+    \item Architected a Kafka pipeline and stream processor, Hyperloop, which aggregates on Postgres change data events and sinks to Elasticsearch bringing down sync frequency from 24h to $<1$s.
+    \item Investigated and resolved production OOMs and latency issues in NodeJS, Redis, Postgres services through query optimizations.
+    \item As a scrum member specified stories, backlog tasks and participated in sprints in an automated Jira workflow
+\end{itemize}
+
+\subsection*{Co-founder, NUS Online Feedback System \href{https://youtu.be/LVmKodrE8e0}{\faYoutube} \hfill Aug 20 - Present}
+\begin{itemize}
+    \item Co-founded a web application for schools and universities for collaborative documentation peer review integrated with Google Docs implemented using Firebase Cloud Functions and Firestore.
+    \item Implemented backend infrastructure to parse, split and distribute Google Docs with versioning and comments implemented in-house.
+\end{itemize}
+
+\subsection*{Co-founder, ZiMS \href{https://github.com/zims-live}{\faGithub GP} \hfill May 20 - Present}
+\begin{itemize}
+    \item Founded a suite of open-source video conferencing applications currently for general purpose and education verticles.
+    \item Architected frontend and backend applications with CI/CD, security practices, latency, bandwidth and idempotency.
+    \item Currently deployed by Vitaminds in Netherlands to connect mental health professionals with people in need of help.
+\end{itemize}
 
 \subsection*{Intern Software Engineer in Test, Autodesk AutoCAD \hfill Jul 20 - Dec 20}
 \begin{itemize}
@@ -64,38 +83,18 @@
 
 \subsection*{ Intern Machine Learning, NExT++ Research Center \href{https://github.com/GelliFrancesco/assetpriceprediction}{\faGithub} \hfill May 19 - Dec 19}
 \begin{itemize}
-    \item Designed and tested financial sentiment models on financial news for stock market prediction research back-tested models with algorithmic trading libraries zipline and pyfolio.
+    \item Designed and tested financial sentiment models on financial news for stock market prediction research back-tested models with algorithmic trading libraries zipline and pyfolio (10\% return without transaction costs).
     \item Trained and tested financial lexicon models, Google BERT and deep learning models using Pytorch.
     \item Processed and filtered approx. 13 million financial news articles to optimize model performance.
 \end{itemize}
 
-\section*{PROJECTS}
-
-\subsection*{ZiMS \href{https://github.com/yzia2000/zims-mesh}{\faGithub GP} \href{https://github.com/yzia2000/zims}{\faGithub Edu} \hfill May 20 - Present}
-\begin{itemize}
-    \item Founded and architected an open-source multi-party video conferencing web application using WebRTC with vertical implementations for general purpose conferencing and online education.
-    \item Implemented the general purpose vertical using Firebase Firestore and Hosting.
-    \item Deployed Janus SFU Media Server for scalability to meet online education requirements and architected a microservices architecture with Typescript React Frontend and Docker containers of Node API and Postgres databases on Netlify and Heroku.
-\end{itemize}
-
-\subsection*{NUS Online Feedback System \href{https://youtu.be/LVmKodrE8e0}{\faYoutube} \hfill Aug 20 - Present}
-\begin{itemize}
-    \item A web application for schools and universities for collaborative documentation peer review integrated with Google Docs implemented using Firebase Cloud Functions and Firestore.
-    \item Implemented backend infrastructure to split and distribute Google Docs between teams by heading with document versions and comments.
-\end{itemize}
-
-\subsection*{Neural Network Coprocessor using Xilinx FPGA for ARM \hfill May 20 - Jul 20}
-
-\subsection*{Admin and Head of Web Team NUS-IEEE Hackathon \href{https://www.nusieeehackathon.com/}{\faGlobe} \hfill Feb 19}
-
 \section*{SKILLS}
-
 {\large \bf Proficient}
-C, C\#, C++, Java, Python, HTML, CSS, Javascript, Typescript, REST, Node, React, NGINX, Docker,
-SQL, Postgres, Firebase, NoSQL, CI/CD, GitHub Actions, Testing Automation, TestComplete, Agile, Scrum, JIRA,
-Pytorch, Pandas, Numpy, Heroku, Serverless.
+Typescript, Javscript, Go, C, C\#, C++, Java, Swagger/OpenAPI, Kafka, Python, HTML, CSS, React, Docker,
+PostgreSQL, NoSQL, CI/CD, Testing Automation, Agile, JIRA,
+Pytorch, Pandas, Numpy.
 
 {\large \bf Exposure}
-GCP Compute Engine, AWS EC2, Selenium, Go, Lua, .NET, Open-source
+Kubernetes, GCP Compute Engine, AWS EC2, Selenium, Rust, Lua, .NET
 
 \end{document}
