@@ -4,7 +4,7 @@
   <img src="images/yz_brand_icon.png" style="width: 50%;" />
 </p>
 
-My name is Yousuf. Just your friendly neighbourhood git geek.
+My name is Yousuf. Just your friendly neighbourhood git geek. Follow my [journal](https://journal-mauve.vercel.app/)!
 
 - 🔭 I’m currently working on [kstreams4s](https://github.com/glints-dev/kstreams4s), [ntty](https://github.com/yzia2000/ntty), [Sourceror](https://github.com/source-academy/sourceror), [ZiMS-SFU](https://github.com/yzia2000/zims), [ZiMS-MESH](https://github.com/yzia2000/zims-mesh), [Foodie](https://github.com/yzia2000/foodie), [blog](https://yzia2000.github.io/blog), [linux configs](https://github.com/yzia2000/dotfiles).
 - 🐧 Btw I use arch: [Linux dotfiles](https://github.com/yzia2000/dotfiles)
